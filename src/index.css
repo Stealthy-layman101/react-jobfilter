@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "League Spartan";
+  font-size: 15px;
+  background-color: hsl(180, 52%, 96%);
+}
+
+.desktop-header{
+  display: none;
+}
+
+.logo-img{
+  position: relative;
+  bottom: 30px;
+}
+
+.jobs-ul{
+  padding: 20px;
+  list-style: none;
+}
+
+.company{
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(180, 29%, 50%);
+}
+
+.new{
+  background-color: hsl(180, 29%, 50%);
+  font-weight: 700;
+  border-radius: 15px;
+  margin-top: 16px;
+  position: relative;
+  bottom: 16px;
+}
+
+.featured{
+  font-weight: 700;
+  border-radius: 20px;
+  margin-top: 15px;
+  position: relative;
+  bottom: 15px;
+}
+
+.contract-div{
+  font-weight: 700;
+  color: hsl(180, 8%, 52%);
+}
+
+.filter, .filter-item{
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 900;
+  background-color: hsl(180, 31%, 95%);
+  color: hsl(180, 29%, 50%);
+  padding: 5px;
+}
+
+.filter-item{
+  padding: 6px;
+}
+
+.filters-div{
+  margin: 20px 20px 0px 20px;
+  padding: 20px;
+  position: relative;
+  bottom: 3rem;
+}
+
+.font-icon{
+  position: relative;
+  top: 3px;
+}
+
+@media only screen and (min-width: 1024px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  .mobile-header{
+    display: none;
+  }
+
+  .desktop-header{
+    display: block;
+  }
+
+  .jobs-ul, .filters-div{
+    margin: 0 auto;
+    width: 50%;
+  }
+}
